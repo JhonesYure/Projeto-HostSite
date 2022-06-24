@@ -22,5 +22,7 @@ namespace Hotsite
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+    
     }
+    
 }
