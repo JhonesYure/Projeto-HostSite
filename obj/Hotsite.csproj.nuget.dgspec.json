@@ -61,7 +61,7 @@
             },
             "Serilog.Extensions.Logging.File": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[3.0.0, )"
             }
           },
           "imports": [

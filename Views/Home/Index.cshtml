@@ -1,48 +1,115 @@
 ﻿@model Interesse
 @{
     ViewData["Title"] = "Hotsite";
+    Layout = "_Layout";
 }
-<link rel="stylesheet" type="text/css" href="/css/estilo.css">
 
-<div class="row text-center">
 
-    <div class="col-sm-12 col-md-5 col-lg-5 p-5">
-    <h1>Iniciativa Saúde da Cidade</h1>
-    <p>
-        Texto sobre vida saudável: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
-    </p>
-    <p>
-        Texto sobre vida iniciativa: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
-    </p>
+
+<div class="row">
+
+
+    <div class="col-md-6">
+        <h1>Iniciativa Saúde da Cidade</h1>
+        <p>
+            Texto sobre vida saudável: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos
+            at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
+        </p>
+        <p>
+            Texto sobre vida iniciativa: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos
+            at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
+        </p>
+    </div><!--parte superior esquerda!-->
+    
+    
+
+    <div class="col-md-6">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="~/Imagens/imagem1.png"  width="700px" height="500px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="~/Imagens/imagem2.png" width="700px" height="500px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="~/Imagens/imagem3.png" width="700px" height="500px">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+             
+    </div>
+   
+</div>
+
+
+
+
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>Entre em contato!:</h2>
+        <p>Nos mande uma mensagem e fique por dentro de nossos eventos</p>
+        <p class="text-danger">@ViewData["mensagem"]</p>
+        <form asp-action="Cadastrar" method="POST">
+
+            <div class="form-group row">
+                <label asp-for="Nome" class="col-3">Nome:</label>
+                <input asp-for="Nome" type="text" required>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Email" class="col-3">Email:</label>
+                <input asp-for="Email" type="email" required />
+            </div>
+            <div class="form-group row">
+                <label asp-for="Mensagem" class="col-3">Mensagem (opcional):</label>
+                <textarea asp-for="Mensagem" ></textarea>
+            </div>
+            <div class="form-group row">
+                <div class="col-8"> @ViewBag.msg</div>
+                <input type="submit" value="Enviar" class="col-3" />
+                <div class="col-1"></div>
+
+            </div>
+
+        </form>
+    </div>
+    
+
+
+
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4"> <a href="#">Agenda de eventos</a></div>
+            <div class="col-sm-12 col-md-4 col-lg-4"><a href="#">Dicas de vida saudável</a></div>
+            <div class="col-sm-12 col-md-4 col-lg-4"><a href="#">Apoiadores</a></div>
+
+        </div>
+
     </div>
 </div>
 
 
-<div class="col-sm-12 col-md-7 col-lg-7 p-3">
-    <h2>Entre em contato!:</h2>
-    <p>Nos mande uma mensagem e fique por dentro de nossos eventos</p>
 
-    <form action="/Home/Cadastrar" method="POST">
-        <div>
-            <label asp-for="Nome">Nome:</label>
-            <input asp-for="Nome" />
-        </div>
-        <div>
-            <label asp-for="Email">Email:</label>
-            <input asp-for="Email" />
-        </div>
-        <div>
-            <label asp-for="Mensagem">Mensagem (opcional):</label>
-            <textarea asp-for="Mensagem"></textarea>
-        </div>
-        <div>
-            <input type="submit" value="Enviar" />
-        </div>
-    </form>
-</div>
+
+
 
 <div>
-    <a href="#">Agenda de eventos</a>
-    <a href="#">Dicas de vida saudável</a>
-    <a href="#">Apoiadores</a>
+
+
+
 </div>

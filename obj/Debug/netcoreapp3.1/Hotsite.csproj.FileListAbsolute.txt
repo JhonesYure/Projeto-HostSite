@@ -57,3 +57,10 @@ C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\stat
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\Hotsite.dll
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\Hotsite.pdb
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\Hotsite.genruntimeconfig.cache
+C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.File.dll
+C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
+C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Serilog.Sinks.Async.dll
+C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
