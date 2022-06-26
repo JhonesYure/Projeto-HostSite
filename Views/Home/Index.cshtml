@@ -20,7 +20,7 @@
 
 <div class="col-md-8 txttop" >
 
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide borda" data-ride="carousel">
 
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -57,11 +57,11 @@
 </div><!--FIM DO ROW 1--> 
 
 
-<div class="row text-center">
+<div class="row text-center txttop2"><!--formulario-->
   <div class="col-md-4 borda">
     <h2>Entre em contato!</h2>
     <p>Nos envie uma mensagem para que fique dentro de nossos eventos</p>
-
+    <p class="text-danger">@ViewData["mensagem"]</p>
     <form asp-action="Cadastrar" method="POST">
 
             <div class="form-group row">
@@ -86,5 +86,122 @@
         </form><!--FORMULARIO-->
 
   </div><!--col-->
+<div class="col-md-3"><!--MODAL 1-->
+      <img src="~/img/calendario.png" width="100px" height="100px">
+      <br>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ExemploModalCentralizado">
+        Agenda de eventos
+      </button>
+
+      <!-- Modal -->
+        <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Agenda</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+          </button>
+      </div>
+      <div class="modal-body">
+        <div>
+        <h4>10/07/22</h4>
+        <h5>Corrida saudável</h5>
+        <p>15 Horas</p>
+        <a href="#">Saiba mais</a>
+        </div>
+        <br>
+        <div>
+        <h4>13/08/22</h4>
+        <h5>Yoga ao ar livre</h5>
+        <p>14 Horas</p>
+        <a href="#">Saiba mais</a>
+        </div>
+        <br>
+        <div>
+        <h4>8/09/22</h4>
+        <h5>Gastronomia</h5>
+        <p>11 Horas</p>
+        <a href="#">Saiba mais</a>
+        </div>
+        <br>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        
+      </div>
+    </div>
+        </div>
+      </div>
+    </div><!-- MODAL 1 -->
+
+<div class="col-md-3"><!--MODAL 2-->
+      <img src="~/img/check.png" width="100px" height="100px">
+      <br>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ExemploModalCentralizado2">
+        Dicas de vida saudável
+       </button>
+
+       <!-- Modal -->
+      <div class="modal fade" id="ExemploModalCentralizado2" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalLongoExemplo">Dicas</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+        <h3>Dicas de vida saudável</h3>
+        <p>Durma de 6 a 8 horas por dia. Dormir de 6 a 8 horas por dia é muito importante para que o corpo descanse e reponha as energias necessárias</p>
+        <br>
+        <p>Alimente-se bem</p>
+        <br>
+        <p>Pratique atividades físicas</p>
+        <br>
+        <a href="#">Saiba mais</a>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        
+        </div>
+        </div>
+        </div>
+        </div>
+  </div><!--MODAL 2-->
+<div class="col-md-2"><!--MODEL 3 -->
+      <img src="~/img/apoio.png" width="100px" height="100px">
+      <br>
+   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ExemploModalCentralizado3">
+        Apoiadores
+      </button>
+      <!-- Modal -->
+    <div class="modal fade" id="ExemploModalCentralizado3" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalLongoExemplo">Apoiadores</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar mudanças</button>
+       </div>
+       </div>
+       </div>
+       </div>
+ </div><!--MODEL 3-->
+      
+  
+
+       
+</div><!--col-->
     
- </div><!--FIM ROW 2-->
+</div><!--FIM ROW 2-->

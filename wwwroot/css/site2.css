@@ -2,19 +2,19 @@
 {
     border: solid 1px black;
 }
-.txbutton
+.txttop
 {
-    width: 32%;
-    height: 60px;
-    border-radius: 5px;
     position: relative;
-    top: 0;
-    right: 0;
-    background-color: rgb(23, 159, 11);
-    color: aliceblue;
+    top: 20px;
+}
+.txttop2
+{
     position: relative;
-    text-align: center;
-    font-size: 15px;
-    margin-left: 35%;
-    margin-top: 30px;
+    top: 30px;
+}
+.txtbotao
+{
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
 }
