@@ -18,3 +18,14 @@
     background-color: blue;
     color: white;
 }
+.txtform
+{
+    font-style: italic;
+    color: black;
+    text-shadow: yellow;
+}
+.txtbox
+{
+    border-radius: 5px;
+    border: solid 1px black
+}

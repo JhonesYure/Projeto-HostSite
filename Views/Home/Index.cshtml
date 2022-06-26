@@ -9,12 +9,11 @@
   <div class="col-md-4 txttop">
     <h1>Iniciativa Saúde da Cidade</h1>
     <p>
-            Texto sobre vida saudável: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos
-            at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
+            Saúde é um conceito complexo e muitas vezes um estado difícil de se conseguir. Estar saudável vai além de não ter doenças, envolvendo também aspectos sociais e psicológicos. Vamos abordar a seguir algumas questões importantes sobre saúde e dar dicas para uma vida mais saudável nos mais diferentes aspectos.
         </p>
         <p>
-            Texto sobre vida iniciativa: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos
-            at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
+            O que é saúde segundo a OMS?
+Um conceito bastante conhecido de saúde é aquele que diz que “saúde é a ausência de doenças”. Para muitos autores, no entanto, saúde vai muito além desse simples entendimento. A Organização Mundial de Saúde (OMS), por exemplo, dá uma definição muito mais ampla.
         </p>
 </div><!--Texto 1-->
 
@@ -65,16 +64,16 @@
     <form asp-action="Cadastrar" method="POST">
 
             <div class="form-group row">
-                <label asp-for="Nome" class="col-3">Nome:</label>
-                <input asp-for="Nome" type="text" class="form-control  col-8" required/>
+                <label asp-for="Nome" class="col-3 txtform">Nome:</label>
+                <input asp-for="Nome" type="text" class="col-8 txtbox" required/>
             </div>
             <div class="form-group row">
-                <label asp-for="Email" class="col-3">Email:</label>
-                <input asp-for="Email" type="email" class="form-control col-8" required/>
+                <label asp-for="Email" class="col-3 txtform">Email:</label>
+                <input asp-for="Email" type="email" class=" col-8 txtbox" required/>
             </div>
             <div class="form-group row">
-                <label asp-for="Mensagem" class="col-3">Mensagem (opcional):</label>
-                <textarea asp-for="Mensagem" class="form-control  col-8" rows="3"></textarea>
+                <label asp-for="Mensagem" class="col-3 txtform">Mensagem (opcional):</label>
+                <textarea asp-for="Mensagem" class="col-8 txtbox" rows="5"></textarea>
             </div>
             <div class="form-group row">
                 <div class="col-8"> @ViewBag.msg</div>
@@ -188,11 +187,37 @@
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <div>
+          <a href="">
+            <img src="~/img/fecomercio.png" width="100px" height="100px">
+          </a>
+          <h5>Fecomércio-RS</h5>
+        </div>
+        <br>
+        <div>
+          <a href="">
+            <img src="~/img/sirena_logo.png" width="100px" height="100px">
+          </a>
+          <h5>Sirnea Cosméticos</h5>
+        </div>
+        <br>
+        <div>
+          <a href="">
+            <img src="~/img/senac.png" width="100px" height="100px">
+          </a>
+          <h5>Senac-RS</h5>
+        </div>
+        <br>
+        <div>
+          <a href="">
+            <img src="~/img/pixabay.png" width="100px" height="100px">
+          </a>
+          <h5>Pixabay</h5>
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-primary">Salvar mudanças</button>
+       
        </div>
        </div>
        </div>
