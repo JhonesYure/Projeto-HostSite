@@ -20,12 +20,16 @@
 }
 .txtform
 {
+    
     font-style: italic;
     color: black;
     text-shadow: yellow;
 }
 .txtbox
 {
+    margin-top: 10px;
     border-radius: 5px;
-    border: solid 1px black
+    border: solid 1px black;
+    margin-left: 15%;
+    
 }

@@ -26,17 +26,24 @@ namespace Hotsite.Controllers
         [HttpPost]
         public IActionResult Cadastrar(Interesse cad)
         {
-            ViewData["mensagem"] = "Enviado com sucesso";
+            
             try
             {
             DatabaseService dbs = new DatabaseService();
             dbs.CadastraInteresse(cad);
+            //ViewData["mensagem"] = "Enviado com sucesso";
+
+            return Json(new {status="Ok"});
+
             } catch (Exception e)
             {
                 _logger.LogError("Erro ao gravar no banco de dados"+ e.Message);
-                ViewData["mensagem"] = "Erro! Tente novamente mais tarde";
+                //ViewData["mensagem"] = "Erro! Tente novamente mais tarde";
+
+                 return Json(new {status="ERRO", mensagem="falha no envio"});
             }
-            return View("Index",cad);
+            
+            //return View("Index",cad);
         }
 
     }

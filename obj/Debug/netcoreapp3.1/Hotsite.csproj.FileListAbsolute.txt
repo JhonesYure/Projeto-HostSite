@@ -1,6 +1,5 @@
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Hotsite.exe
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Hotsite.deps.json
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Hotsite.runtimeconfig.json
@@ -32,7 +31,6 @@ C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\MySq
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
-C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\Hotsite.csprojAssemblyReference.cache
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\Hotsite.AssemblyInfoInputs.cache
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\Hotsite.AssemblyInfo.cs
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\Hotsite.csproj.CoreCompileInputs.cache
@@ -53,7 +51,6 @@ C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\Hots
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\Hotsite.Views.pdb
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\Hotsite.csproj.CopyComplete
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\staticwebassets\Hotsite.StaticWebAssets.Manifest.cache
-C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\staticwebassets\Hotsite.StaticWebAssets.xml
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\Hotsite.dll
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\Hotsite.pdb
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\Hotsite.genruntimeconfig.cache
@@ -64,3 +61,5 @@ C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Seri
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Serilog.Sinks.Async.dll
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
 C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
+C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\Hotsite.csproj.AssemblyReference.cache
+C:\Users\Jhones\OneDrive\SENAC\UC07\projetohostSite\obj\Debug\netcoreapp3.1\Hotsite.GeneratedMSBuildEditorConfig.editorconfig

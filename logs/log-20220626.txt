@@ -1,0 +1,1 @@
+2022-06-26T12:00:24.3599288-03:00 0HMINGDGBGJHF:00000002 [ERR] Erro ao gravar no banco de dadosAn exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseMySql' call. (61441a39)
